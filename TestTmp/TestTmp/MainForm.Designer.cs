@@ -36,13 +36,16 @@
             // 
             this.gridView.AllowUserToAddRows = false;
             this.gridView.AllowUserToDeleteRows = false;
+            this.gridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridView.Location = new System.Drawing.Point(129, 53);
+            this.gridView.Location = new System.Drawing.Point(12, 12);
             this.gridView.Name = "gridView";
             this.gridView.ReadOnly = true;
             this.gridView.RowHeadersWidth = 51;
             this.gridView.RowTemplate.Height = 24;
-            this.gridView.Size = new System.Drawing.Size(519, 343);
+            this.gridView.Size = new System.Drawing.Size(728, 443);
             this.gridView.TabIndex = 0;
             // 
             // MainForm
