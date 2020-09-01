@@ -1,0 +1,12 @@
+D:\GitHub\TestTmp\TestTmp\TestTmp\bin\Debug\DB\MainDB.mdf
+D:\GitHub\TestTmp\TestTmp\TestTmp\bin\Debug\DB\MainDB_log.ldf
+D:\GitHub\TestTmp\TestTmp\TestTmp\bin\Debug\TestTmp.exe.config
+D:\GitHub\TestTmp\TestTmp\TestTmp\bin\Debug\TestTmp.exe
+D:\GitHub\TestTmp\TestTmp\TestTmp\bin\Debug\TestTmp.pdb
+D:\GitHub\TestTmp\TestTmp\TestTmp\obj\Debug\TestTmp.csprojAssemblyReference.cache
+D:\GitHub\TestTmp\TestTmp\TestTmp\obj\Debug\TestTmp.MainForm.resources
+D:\GitHub\TestTmp\TestTmp\TestTmp\obj\Debug\TestTmp.Properties.Resources.resources
+D:\GitHub\TestTmp\TestTmp\TestTmp\obj\Debug\TestTmp.csproj.GenerateResource.cache
+D:\GitHub\TestTmp\TestTmp\TestTmp\obj\Debug\TestTmp.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTmp\TestTmp\TestTmp\obj\Debug\TestTmp.exe
+D:\GitHub\TestTmp\TestTmp\TestTmp\obj\Debug\TestTmp.pdb

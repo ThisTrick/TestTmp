@@ -28,7 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.gridView = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // gridView
+            // 
+            this.gridView.AllowUserToAddRows = false;
+            this.gridView.AllowUserToDeleteRows = false;
+            this.gridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridView.Location = new System.Drawing.Point(129, 53);
+            this.gridView.Name = "gridView";
+            this.gridView.ReadOnly = true;
+            this.gridView.RowHeadersWidth = 51;
+            this.gridView.RowTemplate.Height = 24;
+            this.gridView.Size = new System.Drawing.Size(519, 343);
+            this.gridView.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -37,15 +52,20 @@
             this.BackColor = System.Drawing.Color.DarkOrange;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(752, 467);
+            this.Controls.Add(this.gridView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.gridView)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView gridView;
     }
 }
 
